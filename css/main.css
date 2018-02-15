@@ -88,6 +88,12 @@ body {
   padding-top: 70px;
 }
 
+.about-text p {
+  font-size: 1.2em;
+  font-style: italic;
+  font-family: "Arial";
+}
+
 @media(max-width:1199px) {
 
   .chapter-title {
@@ -203,6 +209,12 @@ display: flex;
   font-family: "Bernadette";
   font-size: 1.5em;
   text-align: center;
+}
+
+.about-text p {
+  font-size: 1em;
+  font-style: italic;
+  font-family: "Arial";
 }
 }
 
