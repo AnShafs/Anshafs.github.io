@@ -1,0 +1,216 @@
+@font-face {
+  font-family: Ar Bonnie;
+  src:url('../fonts/ARBONNIE.ttf');
+}
+
+@font-face {
+  font-family: Breeze Personal Use;
+  src:url('../fonts/Breeze Personal Use.ttf');
+}
+
+@font-face {
+  font-family: Bernadette;
+  src:url('../fonts/bernadette.ttf');
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 10px;
+}
+
+.main-menu {
+  font-family:"Ar Bonnie";
+  font-size: 20px;
+  color: black;
+}
+
+.logo-a {
+  font-family: "Breeze Personal Use";
+  font-size: 40px;
+}
+
+.logo-text {
+  font-family: "Bernadette";
+  font-size: 14px;
+}
+
+body {
+  background: url('../images/web-design-information.jpg')no-repeat center top fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-opacity {
+  background-color: white;
+  opacity: 0.5
+}
+
+
+.skill-img {
+  margin-top: 10px;
+}
+
+.skill-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.chapter-title {
+  padding-top: 50px;
+  margin-bottom: 20px;
+  font-family:"Ar Bonnie";
+  font-size: 2em;
+  text-align: center;
+}
+
+.contacts {
+  color:white;
+  font-size: 3em;
+}
+
+#contacts {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-family:"Ar Bonnie";
+  font-size: 2em;
+  text-align: center;
+  font-weight: 500;
+}
+
+.about {
+  padding-top: 70px;
+}
+
+@media(max-width:1199px) {
+
+  .chapter-title {
+    padding-top: 70px;
+    font-family:"Ar Bonnie";
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  #contacts {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-family:"Ar Bonnie";
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .skill-title {
+    font-size: 1em;
+    font-weight: 500;
+  }
+
+  .contacts {
+    color:white;
+    font-size: 2em;
+  }
+
+  .about {
+    padding-top: 70px;
+  }
+}
+
+.project-title {
+  text-align: center;
+}
+
+#my-photo {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+
+
+.main-text {
+  background-color: white;
+  padding: 15px 0px;
+}
+
+
+footer {
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.icon {
+  font-weight: bold;
+}
+
+/* banner */
+
+.banner {
+ height: 100vh;
+display: flex;
+}
+
+.banner-content {
+  margin: auto;
+  text-align: center;
+}
+
+.banner-text {
+  font-family:"Ar Bonnie";
+  font-size: 4em;
+  text-align:center;
+  padding-top: 40px;
+}
+
+#my-name {
+  font-family: "Bernadette";
+  font-size: 2em;
+  text-align: center;
+  padding-top: 60px;
+}
+
+@media(max-width:1199px) {
+.banner-text {
+  font-family:"Ar Bonnie";
+  font-size: 2.7em;
+  text-align:center;
+}
+
+#my-name {
+  font-family: "Bernadette";
+  font-size: 1.5em;
+  text-align: center;
+}
+}
+
+@media(max-width:767px) {
+.banner-text {
+  font-family:"Ar Bonnie";
+  font-size: 2.5em;
+  text-align:center;
+}
+
+#my-name {
+  font-family: "Bernadette";
+  font-size: 1.5em;
+  text-align: center;
+}
+}
+
+.portfolio-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project-title {
+  margin-top: 10px;
+}
