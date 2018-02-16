@@ -13,6 +13,13 @@
   src:url('../fonts/bernadette.ttf');
 }
 
+@font-face {
+  font-family: 'Adobe Garamond Pro Regular';
+  src:url('../fonts/Adobe Garamond Pro Regular.ttf');
+}
+
+
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -44,6 +51,16 @@ body {
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+@media(max-width:767px) {
+  body {
+    background: url('../images/web-design-information(mobile).jpg')no-repeat center top fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
 .navbar-opacity {
@@ -91,7 +108,7 @@ body {
 .about-text p {
   font-size: 1.2em;
   font-style: italic;
-  font-family: "Arial";
+  font-family: "Adobe Garamond Pro Regular";
 }
 
 @media(max-width:1199px) {
@@ -126,9 +143,7 @@ body {
   }
 }
 
-.project-title {
-  text-align: center;
-}
+
 
 #my-photo {
   border-radius: 50%;
@@ -218,11 +233,71 @@ display: flex;
 }
 }
 
-.portfolio-img {
+.portfolio-img-container {
+  border: 1px solid #e7e7e7 ;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #f8f9fa;
+}
+
+.white-background {
+  background-color: #ffffff;
+}
+
+a.portfolio-img {
+  display: block;
+  width: 400px;
+  height: 240px;
   max-width: 100%;
   max-height: 100%;
+  margin: auto;
+}
+
+a.tictactoe {
+  background: url('../images/tictactoe-light.png')no-repeat center top;
+}
+a.tictactoe:hover {
+  background: url('../images/tictactoe.png')no-repeat center top;
+}
+
+a.quoter {
+  background: url('../images/quoter-light.png')no-repeat center top;
+}
+a.quoter:hover {
+  background: url('../images/quoter.png')no-repeat center top;
+}
+
+a.wiki-viewer {
+  background: url('../images/wiki-viewer-light.png')no-repeat center top;
+}
+a.wiki-viewer:hover {
+  background: url('../images/wiki-viewer.png')no-repeat center top;
+}
+
+a.simon {
+  background: url('../images/simon-light.png')no-repeat center top;
+}
+a.simon:hover {
+  background: url('../images/simon.png')no-repeat center top;
+}
+
+a.pomodoro {
+  background: url('../images/pomodoro-light.png') no-repeat center top;
+}
+a.pomodoro:hover {
+  background: url('../images/pomodoro.png') no-repeat center top;
+}
+
+a.weather {
+  background: url('../images/weather-light.png')no-repeat center top;
+}
+a.weather:hover {
+  background: url('../images/weather.png')no-repeat center top;
 }
 
 .project-title {
   margin: 10px 0px;
+  font-style: italic;
+  font-family: "Adobe Garamond Pro Regular";
+  text-align: center;
 }

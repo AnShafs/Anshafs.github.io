@@ -13,5 +13,11 @@ $(document).ready(function(){
       $('.navbar-toggle').click();
   });
 
+  $('.portfolio-img').on('mouseover', function(e) {
+    $(e.target).parent().addClass('white-background');
+  }).on('mouseleave', function(e){
+    $(e.target).parent().removeClass('white-background');
+  })
+
 
 });
