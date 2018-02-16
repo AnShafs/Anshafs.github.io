@@ -226,10 +226,10 @@ display: flex;
   text-align: center;
 }
 
-.about-text p {
+.about-text {
   font-size: 1em;
   font-style: italic;
-  font-family: "Arial";
+  font-family: "Adobe Garamond Pro Regular";
 }
 }
 
