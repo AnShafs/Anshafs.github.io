@@ -46,7 +46,7 @@ li {
 }
 
 body {
-  background: url('../images/web-design-information.jpg')no-repeat center top fixed;
+  background: url('../images/web-design-information.jpg')no-repeat left top fixed;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -224,7 +224,7 @@ display: flex;
 }
 
 @media(max-width:767px) {
-  .banner {
+  /* .banner {
      height: 100vh;
     display: flex;
     background: url('../images/web-design-information.jpg')no-repeat right top fixed;
@@ -232,7 +232,7 @@ display: flex;
 
   .banner-footer {
     background: url('../images/web-design-information.jpg')no-repeat right bottom fixed;
-  }
+  } */
 
   .banner-text {
     font-family:"Ar Bonnie";
