@@ -168,11 +168,12 @@ footer {
   padding: 10px;
 }
 
-@media(max-width:1199px) {
+@media(max-width:767px) {
   footer{
-    background-color: #777777;
+    background-color: #909098;
     opacity: 1;
   }
+}
 
 
 .icon {
@@ -209,51 +210,47 @@ display: flex;
 }
 
 @media(max-width:1199px) {
-.banner {
-   height: 100vh;
-  display: flex;
-  background: url('../images/web-design-information(mobile).jpg')no-repeat center top fixed;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  .banner-text {
+    font-family:"Ar Bonnie";
+    font-size: 2.7em;
+    text-align:center;
   }
 
-.banner-footer {
-  background: url('../images/web-design-information(mobile).jpg')no-repeat center bottom fixed;
-}
-
-.banner-text {
-  font-family:"Ar Bonnie";
-  font-size: 2.7em;
-  text-align:center;
-}
-
-#my-name {
-  font-family: "Bernadette";
-  font-size: 1.5em;
-  text-align: center;
-}
+  #my-name {
+    font-family: "Bernadette";
+    font-size: 1.5em;
+    text-align: center;
+  }
 }
 
 @media(max-width:767px) {
-.banner-text {
-  font-family:"Ar Bonnie";
-  font-size: 2.5em;
-  text-align:center;
-}
+  .banner {
+     height: 100vh;
+    display: flex;
+    background: url('../images/web-design-information.jpg')no-repeat right top fixed;
+    }
 
-#my-name {
-  font-family: "Bernadette";
-  font-size: 1.5em;
-  text-align: center;
-}
+  .banner-footer {
+    background: url('../images/web-design-information.jpg')no-repeat right bottom fixed;
+  }
 
-.about-text {
-  font-size: 1.1em;
-  font-style: italic;
-  font-family: "Adobe Garamond Pro Regular";
-}
+  .banner-text {
+    font-family:"Ar Bonnie";
+    font-size: 2.5em;
+    text-align:center;
+  }
+
+  #my-name {
+    font-family: "Bernadette";
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .about-text {
+    font-size: 1.1em;
+    font-style: italic;
+    font-family: "Adobe Garamond Pro Regular";
+  }
 }
 
 .portfolio-img-container {
