@@ -170,7 +170,7 @@ footer {
 
 @media(max-width:767px) {
   footer{
-    background-color: #909098;
+    background-color: #808089;
     opacity: 1;
   }
 }
@@ -224,15 +224,17 @@ display: flex;
 }
 
 @media(max-width:767px) {
-  /* .banner {
+  .banner {
      height: 100vh;
     display: flex;
-    background: url('../images/web-design-information.jpg')no-repeat right center fixed;
+    background: linear-gradient(130deg, #9696A6, #f8f9fa, #ffffff);
+    /* background: url('../images/web-design-information(mobile).jpg')no-repeat center top fixed; */
     }
 
   .banner-footer {
-    background: url('../images/web-design-information.jpg')no-repeat right bottom fixed;
-  } */
+    background: linear-gradient(#f8f9fa, #9696A6);
+    /* background: url('../images/web-design-information(mobile).jpg')no-repeat center bottom fixed; */
+  }
 
   .banner-text {
     font-family:"Ar Bonnie";
