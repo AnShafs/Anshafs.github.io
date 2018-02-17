@@ -166,8 +166,14 @@ footer {
   opacity: 0.5;
   text-align: center;
   padding: 10px;
-  margin-top: 20px;
 }
+
+@media(max-width:1199px) {
+  footer{
+    background-color: #777777;
+    opacity: 1;
+  }
+
 
 .icon {
   font-weight: bold;
@@ -178,6 +184,9 @@ footer {
 .banner {
  height: 100vh;
 display: flex;
+}
+.banner-footer {
+  padding-bottom: 20px;
 }
 
 .banner-content {
@@ -200,6 +209,20 @@ display: flex;
 }
 
 @media(max-width:1199px) {
+.banner {
+   height: 100vh;
+  display: flex;
+  background: url('../images/web-design-information(mobile).jpg')no-repeat center top fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+.banner-footer {
+  background: url('../images/web-design-information(mobile).jpg')no-repeat center bottom fixed;
+}
+
 .banner-text {
   font-family:"Ar Bonnie";
   font-size: 2.7em;
@@ -227,7 +250,7 @@ display: flex;
 }
 
 .about-text {
-  font-size: 1em;
+  font-size: 1.1em;
   font-style: italic;
   font-family: "Adobe Garamond Pro Regular";
 }
