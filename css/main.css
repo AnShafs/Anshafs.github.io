@@ -227,7 +227,7 @@ display: flex;
   .banner {
      height: 100vh;
     display: flex;
-    background: linear-gradient(130deg, #9696A6, #f8f9fa, #ffffff);
+    background:linear-gradient(130deg, transparent 40%, #ffffff 41%, transparent 41%), linear-gradient(130deg, transparent 44%, #ffffff 44%, transparent 49%), linear-gradient(130deg, #9696A6, #f8f9fa, #ffffff);
     /* background: url('../images/web-design-information(mobile).jpg')no-repeat center top fixed; */
     }
 
