@@ -46,7 +46,7 @@ li {
 }
 
 body {
-  background: url('../images/web-design-information.jpg')no-repeat left top fixed;
+  background: url('../images/web-design-information.jpg')no-repeat center top fixed;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -227,7 +227,7 @@ display: flex;
   /* .banner {
      height: 100vh;
     display: flex;
-    background: url('../images/web-design-information.jpg')no-repeat right top fixed;
+    background: url('../images/web-design-information.jpg')no-repeat right center fixed;
     }
 
   .banner-footer {
