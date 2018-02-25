@@ -273,53 +273,52 @@ a.portfolio-img {
   max-width: 100%;
   max-height: 100%;
   margin: auto;
+  opacity: 0.6;
+}
+
+a.portfolio-img:hover {
+  opacity: 1;
 }
 
 a.tictactoe {
-  background: url('../images/tictactoe-light.png')no-repeat center top;
-}
-a.tictactoe:hover {
   background: url('../images/tictactoe.png')no-repeat center top;
 }
 
 a.quoter {
-  background: url('../images/quoter-light.png')no-repeat center top;
-}
-a.quoter:hover {
   background: url('../images/quoter.png')no-repeat center top;
 }
 
 a.wiki-viewer {
-  background: url('../images/wiki-viewer-light.png')no-repeat center top;
-}
-a.wiki-viewer:hover {
   background: url('../images/wiki-viewer.png')no-repeat center top;
 }
 
 a.simon {
-  background: url('../images/simon-light.png')no-repeat center top;
-}
-a.simon:hover {
   background: url('../images/simon.png')no-repeat center top;
 }
 
 a.pomodoro {
-  background: url('../images/pomodoro-light.png') no-repeat center top;
-}
-a.pomodoro:hover {
   background: url('../images/pomodoro.png') no-repeat center top;
 }
 
 a.weather {
-  background: url('../images/weather-light.png')no-repeat center top;
-}
-a.weather:hover {
   background: url('../images/weather.png')no-repeat center top;
 }
+
+a.markdown {
+  background: url('../images/markdown.png')no-repeat center top;
+}
+/*
+a.placeholder {
+  background: url('../images/placeholder1.png')no-repeat center top;
+} */
 
 .project-title {
   margin: 10px 0px;
   font-style: italic;
   font-family: "Adobe Garamond Pro Regular";
   text-align: center;
+}
+
+.invisible {
+  display: none;
 }
